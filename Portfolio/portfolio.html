@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+
+</head>
+    <body>
+        <!-- header -->
+    <header>
+        <nav>
+            <div class="left"> Shorya's Porfolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</li></a>
+                    <li><a href="">About</li></a>
+                    <li><a href="">Projects</li></a>
+                    <li><a href="">Contact Me</li></a>
+                </ul>
+            </div>
+       </nav>
+    </header>
+    <main>
+        <!-- main section -->
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is 
+                <span class="purple" >
+                    Shorya
+                </span>,  
+                <div>and I am a 
+                    <span class="purple" id="element">
+                        Web Developer
+                    </span> 
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/me1.jpeg" class="me1">
+            </div>
+        </section>
+        <hr>
+        <!-- about -->
+        <section class="secondSection">
+            <div class="about">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/me2.jpeg" class="me2">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="about-header">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nisi optio, in ipsam aperiam, fugit qui, amet numquam molestias delectus neque explicabo possimus? Necessitatibus quam voluptas minima adipisci corrupti iste?</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Coder','Student'],
+          typeSpeed: 50,
+        });
+      </script>
+    </body>
+</html>
