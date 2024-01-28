@@ -59,18 +59,69 @@
                     <div class="about-col-2">
                         <h1 class="about-header">About Me</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nisi optio, in ipsam aperiam, fugit qui, amet numquam molestias delectus neque explicabo possimus? Necessitatibus quam voluptas minima adipisci corrupti iste?</p>
+                        <div class="tab-titles" ">
+                            <p class="tab-links active-link "onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                               
+                                <li><span>Web Development</span><br>Full Stack</li>
+                                <li><span>Problem Solving</span><br>DSA</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>ENVELOP (Research Intern)</span><br>2023(Oct-Nov)</li>
+                                
+                            </ul>
+                        </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>JECRC UNIVERSITY (2022-26)</span><br>CGPA 7.98</li>
+                                <li><span>MAHAVEER PUBLIC SCHOOL (2007-22)</span><br>79% 12(PCM-CBSE) <br> 89% 10(CBSE)</li>
+                                
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
             </div>
         </section>
+        <hr>
+        <!-- Tech Skills  -->
+        <section class="thirdSection">
+
+
+        </section>
     </main>
+
+
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
           strings: ['Web Developer','Coder','Student'],
           typeSpeed: 50,
         });
+
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+
+        }
+
       </script>
     </body>
 </html>
