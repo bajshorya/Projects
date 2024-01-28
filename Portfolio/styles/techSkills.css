@@ -3,3 +3,19 @@
     margin: auto;
     height: 500px;
 }
+.tech-skills-heading{
+    font-size: 30px;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: block;
+}
+.skills-icons{
+    display: flex;
+    margin: 0 4rem 0 5rem ;
+}
+.skills-icons img{
+    margin: 0 4rem 2rem 0;
+    display: grid;
+    align-items: center;
+}
