@@ -3,19 +3,33 @@
     margin: auto;
     height: 500px;
 }
-.tech-skills-heading{
+
+.tech-skills-heading {
     font-size: 30px;
+    text-align: center; /* Center horizontally */
     display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     margin-top: 3rem;
     margin-bottom: 3rem;
-    display: block;
 }
+
 .skills-icons{
-    display: flex;
-    margin: 0 4rem 0 5rem ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .skills-icons img{
-    margin: 0 4rem 2rem 0;
-    display: grid;
-    align-items: center;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+    .skills-icons {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

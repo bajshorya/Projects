@@ -3,20 +3,20 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 130px 0;
+    margin: 10vw 0;
 }
 .firstSection >div{
     width: 30%;
 }
 .leftSection{
-    font-size: 40px; 
+    font-size: 4vw; 
 }
 
 .me1{
-   height: 600px;
-   border-radius: 50px;
+   height: 40vw;
+   border-radius: 5vw;
    border: solid;
-   border-width: 5px;
+   border-width: 1vw;
    border-color: white;
 }
 .purple{
