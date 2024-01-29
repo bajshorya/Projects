@@ -9,7 +9,7 @@ body{
 }
 main hr{
     border:0;
-    background: #9c97f1;
+    background: rgb(91, 46, 173);
     height: 1.2px;
     margin: 40px 85px;
 }
