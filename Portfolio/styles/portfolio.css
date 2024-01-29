@@ -1,10 +1,10 @@
 
 .firstSection{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-    margin: 10vw 0;
-    height: 300px;
+    margin-top: 50px;
+    height: 700px;
 }
 .firstSection >div{
     width: 30%;
@@ -29,6 +29,9 @@
 }
 .links{
     margin: auto;
+}
+.social a {
+    display: inline-block;
 }
 .social img{
     margin-right: 10px;
