@@ -4,12 +4,17 @@
     justify-content: space-around;
     align-items: center;
     margin: 10vw 0;
+    height: 500px;
 }
 .firstSection >div{
     width: 30%;
+    padding-bottom: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
 }
-.leftSection{
+.mainSection{
     font-size: 4vw; 
+    margin: auto;
 }
 
 .me1{
@@ -21,4 +26,32 @@
 }
 .purple{
     color: rgb(161, 106, 209);
+}
+.links{
+    margin: auto;
+}
+.social img{
+    margin-right: 10px;
+    margin-left: 3.5px;
+    margin-bottom: 20px;
+}
+.resume button{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background:none;
+    color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    border: solid;
+    border-color:  rgb(91, 46, 173);
+    cursor: pointer;
+}
+.resume button:hover{
+    background-color: rgb(91, 46, 173);
+    transition-duration: 0.4s;
+    transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    
+
 }

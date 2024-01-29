@@ -2,7 +2,7 @@
 .secondSection{
     max-width: 80vw;
     margin: auto;
-    height: 800px;
+    height: 600px;
 }
 .about{
     padding: 80px 0;
@@ -17,7 +17,7 @@
 }
 
 .me2{
-    width: 100%;
+    width: 80%;
     border-radius: 20px;
     border: solid;
     border-width: 1px;
