@@ -12,27 +12,12 @@
 
     <link rel="stylesheet" href="styles/portfolio.css">
     <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/techSkills.css">
     <link rel="stylesheet" href="styles/footer.css">
 
 </head>
     <body>
-        <!-- header -->
-    <!-- <header>
-        <nav>
-            <div class="left"> Shorya's Porfolio </div>
-            <div class="right">
-                <ul>
-                    <li><a href="">Home</li></a>
-                    <li><a href="">About</li></a>
-                    <li><a href="">Projects</li></a>
-                    <li><a href="">Contact Me</li></a>
-                </ul>
-            </div>
-       </nav>
-    </header> -->
     <main>
         <!-- main section -->
         <section class="firstSection">
@@ -41,7 +26,7 @@
                 <span class="purple" >
                     Shorya Baj
                 </span> 
-                <div>,and I am a <br>
+                <div>, and I am a <br>
                     <span class="purple" id="element">
                         Developer
                     </span> 
@@ -49,9 +34,9 @@
             </div>
             <div class="links">
                 <div class="social">
-                    <img src="images/icons8-github.svg" alt="">
-                    <img src="images/icons8-twitterx.svg" alt="">
-                    <img src="images/icons8-linkedin-50 .png" alt="">
+                    <img src="images/icons8-github.svg" alt="GitHub">
+                    <img src="images/icons8-twitterx.svg" alt="Twitter">
+                    <img src="images/icons8-linkedin-50 .png" alt="LinkedIn">
                 </div>
                 <div class="resume">
                     <button>Resume</button>
@@ -65,19 +50,18 @@
             <div class="about">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="images/me2.jpeg" class="me2">
+                        <img src="images/me2.jpeg" class="me2" alt="About Me">
                     </div>
                     <div class="about-col-2">
                         <h1 class="about-header">About Me</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nisi optio, in ipsam aperiam, fugit qui, amet numquam molestias delectus neque explicabo possimus? Necessitatibus quam voluptas minima adipisci corrupti iste?</p>
-                        <div class="tab-titles" ">
-                            <p class="tab-links active-link "onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
                         </div>
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
-                               
                                 <li><span>Web Development</span><br>Full Stack</li>
                                 <li><span>Problem Solving</span><br>DSA</li>
                             </ul>
@@ -85,22 +69,21 @@
                         <div class="tab-contents" id="experience">
                             <ul>
                                 <li><span>ENVELOP (Research Intern)</span><br>2023(Oct-Nov)</li>
-                                
                             </ul>
                         </div>
-                         <div class="tab-contents" id="education">
+                        <div class="tab-contents" id="education">
                             <ul>
                                 <li><span>JECRC UNIVERSITY (2022-26)</span><br>CGPA 7.98</li>
                                 <li><span>MAHAVEER PUBLIC SCHOOL (2007-22)</span><br>79% 12(PCM-CBSE) <br> 89% 10(CBSE)</li>
-                                
                             </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-        <hr>
+        
+        
+        
         <!-- Tech Skills  -->
         <section class="thirdSection">
             <div class="tech-skills-column">
@@ -108,17 +91,14 @@
                     <h1>Tech Skills</h1>
                 </div> 
                 <div class="skills-icons">
-                    <img src="images/icons/icons8-html.svg" alt="html" >
-                    <img src="images/icons/icons8-css.svg" alt="css">
-                    <img src="images/icons/icons8-javascript-100.png" alt="javascript">
-                    <img src="images/icons/icons8-java.svg" alt="java">
-                    <img src="images/icons/icons8-python.svg" alt="python">
-                    <img src="images/icons/icons8-mysql-100.svg" alt="mysql">
-
+                    <img src="images/icons/icons8-html.svg" alt="HTML">
+                    <img src="images/icons/icons8-css.svg" alt="CSS">
+                    <img src="images/icons/icons8-javascript-100.png" alt="JavaScript">
+                    <img src="images/icons/icons8-java.svg" alt="Java">
+                    <img src="images/icons/icons8-python.svg" alt="Python">
+                    <img src="images/icons/icons8-mysql-100.svg" alt="MySQL">
                 </div>
             </div>
-            
-
         </section>
     </main>
     <footer>
@@ -132,10 +112,6 @@
             </div>
         </nav>
     </footer>
-    
-
-
-
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
@@ -155,10 +131,7 @@
             }
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
-            
-
         }
-
-      </script>
-    </body>
+    </script>
+</body>
 </html>

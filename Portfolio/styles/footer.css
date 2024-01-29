@@ -1,4 +1,4 @@
-footer {
+/* footer {
     background-color: rgb(91, 46, 173);
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -35,4 +35,43 @@ footer {
 
 .email {
     font-size: 18px;
+} */
+
+footer {
+    background-color: rgb(91, 46, 173);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0;
+    text-align: center;
 }
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-footer {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-icon {
+    margin-right: 10px;
+}
+
+.email {
+    font-size: 18px;
+}
+

@@ -8,9 +8,9 @@
 }
 .firstSection >div{
     width: 30%;
-    padding-bottom: 100px;
-    margin-right: 100px;
-    padding-left: 50px;
+    padding: 0 20px;
+    margin-right: 20px;
+    text-align: center;
 }
 .mainSection{
     font-size: 4vw; 
@@ -32,26 +32,24 @@
 }
 .social img{
     margin-right: 10px;
-    margin-left: 3.5px;
     margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
 }
 .resume button{
     width: 200px;
     height: 50px;
-    font-size: 25px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background:none;
+    font-size: 20px;
+    background: none;
     color: white;
+    border: 2px solid #a16ad1;
     border-radius: 10px;
-    border-width: 2px;
-    border: solid;
-    border-color:  rgb(91, 46, 173);
     cursor: pointer;
+    transition: background-color 0.4s, color 0.4s;
 }
 .resume button:hover{
-    background-color: rgb(91, 46, 173);
-    transition-duration: 0.4s;
-    transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    background-color: #7d3b97;
+    color: #fff;
     
 
 }

@@ -1,9 +1,11 @@
 /* about */
-.secondSection{
+.secondSection {
     max-width: 80vw;
     margin: auto;
     height: 800px;
+    margin-bottom: 20px; /* Add margin to the bottom */
 }
+
 .about{
     padding: 80px 0;
 }
@@ -67,9 +69,11 @@
     color: #b54769;
     font-size: 15px;
 }
-.tab-contents{
+.tab-contents {
     display: none;
+    margin-bottom: 20px; /* Add margin to create space */
 }
+
 .tab-contents.active-tab{
     display: block;
 }
