@@ -1,7 +1,8 @@
 .thirdSection{
-    max-width: 80vw;
+    max-width: 100vw;
     margin: auto;
-    height: 500px;
+    height: 600px;
+    margin-top: 0;
 }
 
 .tech-skills-heading {
@@ -10,8 +11,8 @@
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: rem;
+    margin-bottom: 1rem;
 }
 
 .skills-icons{

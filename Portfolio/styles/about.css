@@ -2,8 +2,8 @@
 .secondSection {
     max-width: 80vw;
     margin: auto;
-    height: 800px;
-    margin-bottom: 20px; /* Add margin to the bottom */
+    height: 850px;
+    margin-bottom: 0; /* Add margin to the bottom */
 }
 
 .about{
