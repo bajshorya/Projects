@@ -24,11 +24,19 @@
     gap: 20px;
 }
 .skills-icons img{
+    padding: 10px 10px 10px 10px;
+    width: 70px;
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
+}
+.skills-icons img:hover{
+    background-color: rgb(91, 46, 173);
+    border-radius: 15px;
+    border-style:hidden;
+    
 }
 @media screen and (max-width: 768px) {
     .skills-icons {
