@@ -119,25 +119,6 @@
         </nav>
     </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-          strings: ['Developer','Coder','Student'],
-          typeSpeed: 50,
-        });
-
-        var tablinks=document.getElementsByClassName('tab-links');
-        var tabcontents=document.getElementsByClassName('tab-contents');
-
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script>
+    <script src="scripts/portfolio.js"></script>
 </body>
 </html>
