@@ -1,126 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles/portfolio.css">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/about.css">
-    <link rel="stylesheet" href="styles/techSkills.css">
-    <link rel="stylesheet" href="styles/footer.css">
-
-</head>
-    <body>
+    <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/techSkills.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <body>
     <main>
-        <!-- main section -->
-        <section class="firstSection">
-            <div class="mainSection">
-                Hi, my name is 
-                <span class="purple" >
-                    Shorya Baj
-                </span> 
-                <div>, and I am a <br>
-                    <span class="purple" id="element">
-                        Developer
-                    </span> 
-                </div>
+      <!-- main section -->
+      <section class="firstSection">
+        <div class="mainSection">
+          Hi, my name is
+          <span class="purple"> Shorya Baj </span>
+          <div>
+            , and I am a <br />
+            <span class="purple" id="element"> Developer </span>
+          </div>
+        </div>
+        <div class="links">
+          <div class="social">
+            <a href="https://github.com/bajshorya" target="_blank">
+              <img src="images/icons8-github.svg" alt="GitHub" />
+            </a>
+            <a href="https://twitter.com/shorya_baj" target="_blank">
+              <img src="images/icons8-twitterx.svg" alt="Twitter" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/shoryabaj-2a286279/"
+              target="_blank"
+            >
+              <img src="images/icons8-linkedin.svg" alt="LinkedIn" />
+            </a>
+          </div>
+          <div class="resume">
+            <a
+              href="https://docs.google.com/document/d/1ZiXXYX9nJ7pbypwjF-2y43lhmEjY2ezMUcszj5ryy5s/edit?usp=sharing"
+              target="_blank"
+              ><button>RESUME</button></a
+            >
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- about -->
+      <section class="secondSection">
+        <div class="about">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/me2.jpeg" class="me2" alt="About Me" />
             </div>
-            <div class="links">
-                <div class="social">
-                    <a href="https://github.com/bajshorya" target="_blank">
-                        <img src="images/icons8-github.svg" alt="GitHub">
-                    </a>
-                    <a href="https://twitter.com/shorya_baj" target="_blank">
-                        <img src="images/icons8-twitterx.svg" alt="Twitter">
-                    </a>
-                    <a href="https://www.linkedin.com/in/shoryabaj-2a286279/" target="_blank">
-                        <img src="images/icons8-linkedin.svg" alt="LinkedIn">
-                    </a>
-                </div>
-                <div class="resume">
-                    <button>Resume</button>
-                </div>
+            <div class="about-col-2">
+              <h1 class="about-header">About Me</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                nisi optio, in ipsam aperiam, fugit qui, amet numquam molestias
+                delectus neque explicabo possimus? Necessitatibus quam voluptas
+                minima adipisci corrupti iste?
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Web Development</span><br />Full Stack</li>
+                  <li><span>Problem Solving</span><br />DSA</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>ENVELOP (Research Intern)</span><br />2023(Oct-Nov)
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>JECRC UNIVERSITY (2022-26)</span><br />CGPA 7.98
+                  </li>
+                  <li>
+                    <span>MAHAVEER PUBLIC SCHOOL (2007-22)</span><br />79%
+                    12(PCM-CBSE) <br />
+                    89% 10(CBSE)
+                  </li>
+                </ul>
+              </div>
             </div>
-           
-        </section>
-        <hr>
-        <!-- about -->
-        <section class="secondSection">
-            <div class="about">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="images/me2.jpeg" class="me2" alt="About Me">
-                    </div>
-                    <div class="about-col-2">
-                        <h1 class="about-header">About Me</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nisi optio, in ipsam aperiam, fugit qui, amet numquam molestias delectus neque explicabo possimus? Necessitatibus quam voluptas minima adipisci corrupti iste?</p>
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>Web Development</span><br>Full Stack</li>
-                                <li><span>Problem Solving</span><br>DSA</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>ENVELOP (Research Intern)</span><br>2023(Oct-Nov)</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>JECRC UNIVERSITY (2022-26)</span><br>CGPA 7.98</li>
-                                <li><span>MAHAVEER PUBLIC SCHOOL (2007-22)</span><br>79% 12(PCM-CBSE) <br> 89% 10(CBSE)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        
-        
-        <!-- Tech Skills  -->
-        <section class="thirdSection">
-            <div class="tech-skills-column">
-                <div class="tech-skills-heading">
-                    <h1>Tech Skills</h1>
-                </div> 
-                <div class="skills-icons">
-                    <img src="images/icons/icons8-html.svg" alt="HTML">
-                    <img src="images/icons/icons8-css.svg" alt="CSS">
-                    <img src="images/icons/icons8-javascript-100.png" alt="JavaScript">
-                    <img src="images/icons/icons8-java.svg" alt="Java">
-                    <img src="images/icons/icons8-python.svg" alt="Python">
-                    <img src="images/icons/icons8-mysql-100.svg" alt="MySQL">
-                    <img src="images/icons/icons8-react-native.svg" alt="React">
-                    <img src="images/icons/icons8-tailwind-css.svg" alt="tailwindcss">
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tech Skills  -->
+      <section class="thirdSection">
+        <div class="tech-skills-column">
+          <div class="tech-skills-heading">
+            <h1>Tech Skills</h1>
+          </div>
+          <div class="skills-icons">
+            <img src="images/icons/icons8-html.svg" alt="HTML" />
+            <img src="images/icons/icons8-css.svg" alt="CSS" />
+            <img
+              src="images/icons/icons8-javascript-100.png"
+              alt="JavaScript"
+            />
+            <img src="images/icons/icons8-java.svg" alt="Java" />
+            <img src="images/icons/icons8-python.svg" alt="Python" />
+            <img src="images/icons/icons8-mysql-100.svg" alt="MySQL" />
+            <img src="images/icons/icons8-react-native.svg" alt="React" />
+            <img src="images/icons/icons8-tailwind-css.svg" alt="tailwindcss" />
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <nav class="footer-nav">
-            <div class="footer-content">
-                <div class="name-footer">Shorya Baj</div>
-                <div class="contact">
-                    <img src="images/icons8-mail-24.png" alt="Mail Icon" class="mail-icon">
-                    <span class="email">jain.shorya11@gmail.com</span>
-                </div>
-            </div>
-        </nav>
+      <nav class="footer-nav">
+        <div class="footer-content">
+          <div class="name-footer">Shorya Baj</div>
+          <div class="contact">
+            <img
+              src="images/icons8-mail-24.png"
+              alt="Mail Icon"
+              class="mail-icon"
+            />
+            <span class="email">jain.shorya11@gmail.com</span>
+          </div>
+        </div>
+      </nav>
     </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="scripts/portfolio.js"></script>
-</body>
+  </body>
 </html>
